@@ -1,0 +1,6 @@
+services:
+  app:
+    build: .
+    container_name: fastapi-docker-example
+    ports:
+      - "8000:8000"
